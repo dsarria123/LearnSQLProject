@@ -107,7 +107,7 @@ SELECT CASE
     
 FROM
 	AppleStore AS A 
-JOIN
+INNER JOIN
 	appleStore_description_combined AS b  
 ON
 	a.id = b.id
